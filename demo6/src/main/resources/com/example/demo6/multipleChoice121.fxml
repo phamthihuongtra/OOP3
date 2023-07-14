@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.demo6.MultipleChoiceController"
+            prefHeight="400.0" prefWidth="600.0">
+
+    <Label text="Cau hoi 1: ................."></Label>
+    <CheckBox text="Dap an 1..........." fx:id="option1"></CheckBox>
+    <CheckBox text="Dap an 2..........." fx:id="option2"></CheckBox>
+    <CheckBox text="Dap an 3..........." fx:id="option3"></CheckBox>
+    <CheckBox text="Dap an 4..........." fx:id="option4"></CheckBox>
+    <Button text="submit" onAction="#submitQuiz"></Button>
+    <Label fx:id="result"></Label>
+
+</VBox>
